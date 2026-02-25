@@ -498,6 +498,20 @@
 <br/>
 
 <!-- PROJECTS:START -->
+<div align="center">
+<a href="https://github.com/PSMatheus01/PS-Matheus"><img src="https://github-readme-stats-eight-eta-69.vercel.app/api/pin/?username=psmatheus01&repo=PS-Matheus&bg_color=0d0d0d&title_color=00ff38&text_color=f0f0f0&icon_color=6000ff&border_color=6000ff&hide_border=false" width="48%" alt="PS-Matheus"/></a>&nbsp;&nbsp;<a href="https://github.com/PSMatheus01/split-payment-poc"><img src="https://github-readme-stats-eight-eta-69.vercel.app/api/pin/?username=psmatheus01&repo=split-payment-poc&bg_color=0d0d0d&title_color=00ff38&text_color=f0f0f0&icon_color=6000ff&border_color=6000ff&hide_border=false" width="48%" alt="split-payment-poc"/></a>
+</div>
+<br/>
+<div align="center">
+<a href="https://github.com/PSMatheus01/sentinel-soc-automator"><img src="https://github-readme-stats-eight-eta-69.vercel.app/api/pin/?username=psmatheus01&repo=sentinel-soc-automator&bg_color=0d0d0d&title_color=00ff38&text_color=f0f0f0&icon_color=6000ff&border_color=6000ff&hide_border=false" width="48%" alt="sentinel-soc-automator"/></a>
+</div>
+<br/>
+
+<div align="center">
+<a href="https://github.com/psmatheus01?tab=repositories">
+<img src="https://img.shields.io/badge/View_all_repositories-6000ff?style=for--the--badge&logoColor=white" alt="View all repositories"/>
+</a>
+</div>
 <!-- PROJECTS:END -->
 
 </details>
