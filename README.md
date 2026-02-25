@@ -10,15 +10,15 @@
 
 <div align="center">
 
-  <a href="https://linkedin.com" target="_blank">
+  <a href="https://linkedin.com/in/psmatheus01" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   &nbsp;
-  <a href="https://discord.com" target="_blank">
+  <a href="https://discord.gg/vUpTv78MBM" target="_blank">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
   &nbsp;
-  <a href="https://youtube.com" target="_blank">
+  <a href="https://www.youtube.com/@BugHxHLab" target="_blank">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube"/>
   </a>
 
@@ -522,7 +522,7 @@
 
 <br/>
 <div align="center">
-  <a href="https://youtube.com/@SEU_CANAL_AQUI">
+  <a href="https://www.youtube.com/@BugHxHLab">
     <img src="https://img.shields.io/badge/Watch_more_on_YouTube-ff0000?style=for-the-badge&logo=youtube&logoColor=white" alt="YouTube channel"/>
   </a>
 </div>
@@ -548,7 +548,7 @@
 <!-- ── LinkedIn ── -->
 
 <div align="center">
-  <a href="https://linkedin.com/in/SEU_LINKEDIN_AQUI" target="_blank">
+  <a href="https://www.linkedin.com/in/psmatheus01/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
 </div>
@@ -562,7 +562,7 @@
 <!-- ── Discord ── -->
 
 <div align="center">
-  <a href="https://discord.gg/SEU_INVITE_AQUI" target="_blank">
+  <a href="https://discord.gg/vUpTv78MBM" target="_blank">
     <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
   </a>
 </div>
