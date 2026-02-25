@@ -2,7 +2,7 @@ import os
 import re
 import requests
 
-GITHUB_USERNAME = "psmatheus01"
+GITHUB_USERNAME = "PSMatheus01"
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 STATS_BASE = "https://github-readme-stats-eight-eta-69.vercel.app"
 LIMIT = 6
@@ -20,7 +20,7 @@ def get_recent_repos(limit: int) -> list[dict]:
 
     repos = [
         r for r in response.json()
-        if not r["fork"] and r["name"] != GITHUB_USERNAME
+        if not r["fork"] and r["name"].lower() != GITHUB_USERNAME.lower()
     ]
     return repos[:limit]
 
@@ -29,7 +29,6 @@ def build_projects_section(repos: list[dict]) -> str:
     """Build the markdown block for the Featured Projects section."""
     lines = []
 
-    # Two cards per row
     for i in range(0, len(repos), 2):
         pair = repos[i : i + 2]
         row_parts = []
@@ -47,22 +46,22 @@ def build_projects_section(repos: list[dict]) -> str:
             )
             link_url = repo["html_url"]
             row_parts.append(
-                f'<a href="{link_url}">'
-                f'<img src="{card_url}" width="48%" alt="{repo["name"]}"/>'
-                f"</a>"
+                f'  <a href="{link_url}">\n'
+                f'    <img src="{card_url}" width="47%" alt="{repo["name"]}"/>\n'
+                f"  </a>"
             )
         lines.append(
             '<div align="center">\n'
-            + "&nbsp;&nbsp;".join(row_parts)
-            + "\n</div>\n<br/>"
+            + "\n  &nbsp;\n".join(row_parts)
+            + "\n</div>\n\n<br/>"
         )
 
-    # View all button
     lines.append(
         '\n<div align="center">\n'
-        f'<a href="https://github.com/{GITHUB_USERNAME}?tab=repositories">\n'
-        f'<img src="https://img.shields.io/badge/View_all_repositories-6000ff?style=for--the--badge&logoColor=white" alt="View all repositories"/>\n'
-        f"</a>\n</div>"
+        f'  <a href="https://github.com/{GITHUB_USERNAME}?tab=repositories">\n'
+        f'    <img src="https://img.shields.io/badge/View_all_repositories-6000ff?style=for-the-badge&logoColor=white" height="38" alt="View all repositories"/>\n'
+        f"  </a>\n"
+        f"</div>"
     )
 
     return "\n".join(lines)
@@ -90,7 +89,7 @@ def update_readme(new_section: str) -> None:
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(updated)
 
-    print(f"Updated with {LIMIT} repositories.")
+    print(f"Updated with {len(repos)} repositories.")
 
 
 if __name__ == "__main__":
